@@ -15,16 +15,15 @@ jobs:
       - name: setup python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11.8'
+          python-version: '3.11.5'
           
       - name: install python packages
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          # Add Jupyter and IPython kernel installation commands
-          pip install jupyter ipykernel
-          python -m ipykernel install --user --name python3
-          
+          pip install notebook ipykernel
+          python -m ipykernel install --user --name python3 --display-name "Python 3.11.5"
+          pip install -U jinja2
       - name: execute python workflows from bash script
         env: 
           HOPSWORKS_API_KEY: ${{ secrets.HOPSWORKS_API_KEY }}
