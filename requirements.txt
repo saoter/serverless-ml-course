@@ -9,7 +9,7 @@ hopsworks
 jupyter
 ipykernel
 nbconvert
-scikit-learn
+scikit-learn==1.4.0
 plotly
 Pillow
 seaborn
