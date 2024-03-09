@@ -14,7 +14,7 @@ plotly
 Pillow
 seaborn
 xgboost
-joblib==1.1.0
+joblib==1.2.0
 textblob
 tensorflow
 torch
