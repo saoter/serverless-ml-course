@@ -19,3 +19,6 @@ textblob
 tensorflow
 torch
 geopy
+dataframe_image
+great-expectations
+jinja2
