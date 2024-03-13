@@ -17,7 +17,7 @@ xgboost
 joblib==1.1.0
 textblob
 tensorflow
-torch
+#torch
 geopy
 dataframe_image
 great-expectations
