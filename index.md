@@ -12,7 +12,7 @@
 
 | Recent Predictions/Outcomes | Confusion matrix of historical model accuracy 
 |--------|------- 
-| % include markdown src='assets/df_recent.md' % | ![Confusion Matrix](https://raw.githubusercontent.com/saoter/serverless-ml-course/main/assets/confusion_matrix.png)
+| % include markdown src='/assets/df_recent.md' % | ![Confusion Matrix](https://raw.githubusercontent.com/saoter/serverless-ml-course/main/assets/confusion_matrix.png)
 
 
 ## Module 2 - Credit Card Fraud Dashboard
