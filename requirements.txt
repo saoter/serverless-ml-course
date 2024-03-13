@@ -1,5 +1,5 @@
 faker
-Pandas
+Pandas==1.4.0
 numpy
 xgboost
 python-dotenv
