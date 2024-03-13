@@ -1,5 +1,5 @@
 faker
-Pandas==1.4.0
+Pandas==1.5.1
 numpy
 xgboost
 python-dotenv
@@ -19,7 +19,7 @@ textblob
 tensorflow
 #torch
 geopy
-dataframe_image
+dataframe_image==0.2.3
 great-expectations
 jinja2
 tabulate
