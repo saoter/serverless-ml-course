@@ -4,7 +4,7 @@ numpy
 xgboost
 python-dotenv
 parsedatetime
-hsfs[python]
+hsfs==3.4.7
 hopsworks
 jupyter
 ipykernel
