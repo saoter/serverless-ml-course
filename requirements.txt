@@ -22,3 +22,4 @@ geopy
 dataframe_image
 great-expectations
 jinja2==3.0.3
+tabulate
